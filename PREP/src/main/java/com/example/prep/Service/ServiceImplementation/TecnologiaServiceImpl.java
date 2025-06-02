@@ -2,6 +2,7 @@ package com.example.prep.Service.ServiceImplementation;
 
 import com.example.prep.Domain.Entity.Tecnologia;
 import com.example.prep.Repository.iTecnologiaRepository;
+import com.example.prep.Service.iTecnologiaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
