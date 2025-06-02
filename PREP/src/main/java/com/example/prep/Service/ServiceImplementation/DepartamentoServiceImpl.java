@@ -37,6 +37,7 @@ public class DepartamentoServiceImpl implements iDepartamentoService {
                 .collect(Collectors.toList());
     }
 
+
     @Override
     public DepartamentoResponseDTO obtenerPorId(UUID id) {
         Departamento d = departamentoRepository.findById(id).orElseThrow();
