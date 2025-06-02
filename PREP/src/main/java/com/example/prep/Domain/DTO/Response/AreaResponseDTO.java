@@ -1,11 +1,15 @@
 package com.example.prep.Domain.DTO.Response;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.UUID;
 
 @Data
-public class ClienteResponseDTO {
+@NoArgsConstructor
+@AllArgsConstructor
+class AreaResponseDTO {
     private UUID id;
     private String nombre;
-    private String industria;
-    private String emailContacto;
 }
